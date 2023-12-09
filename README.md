@@ -3,5 +3,5 @@
 ## How to run to code
 
 - First create a virtual environment
-- Second run "pip install -r requirements.txt: in the terminal
+- Second run "pip install -r requirements.txt" in the terminal
 - Lastly run "python -m app" to run the script

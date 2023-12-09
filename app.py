@@ -35,7 +35,7 @@ height = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT))
 
 
 # write video file
-writer = cv.VideoWriter("result.avi", cv.VideoWriter_fourcc(*"DIVX"), fps, (1200, 600))
+writer = cv.VideoWriter("result.avi", cv.VideoWriter_fourcc(*"mp4v"), fps, (1200, 600))
 
 # class list in the COCO image dataset
 my_file = open("coco.txt", "r")
@@ -93,9 +93,9 @@ while True:
             2,
         )
 
-        writer.write(frame)
-
         time.sleep(1 / fps)
+
+        writer.write(frame)
         cv.imshow("RGB", frame)
 
         if cv.waitKey(1) & 0xFF == 27:
