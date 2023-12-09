@@ -35,9 +35,7 @@ height = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT))
 
 
 # write video file
-writer = cv.VideoWriter(
-    "result.mp4", cv.VideoWriter_fourcc(*"MJPG"), fps, (width, height)
-)
+writer = cv.VideoWriter("result.avi", cv.VideoWriter_fourcc(*"DIVX"), fps, (1200, 600))
 
 # class list in the COCO image dataset
 my_file = open("coco.txt", "r")
