@@ -8,4 +8,4 @@
 
 # Result
 
-https://github.com/theprajin/vehicle-detection-and-counting-using-yolov8/blob/main/result.mp4
+<video src='https://github.com/theprajin/vehicle-detection-and-counting-using-yolov8/blob/main/result.mp4' width=180 />
